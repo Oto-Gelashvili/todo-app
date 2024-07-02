@@ -130,7 +130,7 @@ function Header() {
                     ? 'rgb(251, 116, 19)'
                     : '',
                   backgroundImage: selectedIndices.includes(index)
-                    ? `url('/images/icon-check.svg')`
+                    ? `url('images/icon-check.svg')`
                     : '',
                   backgroundPosition: selectedIndices.includes(index)
                     ? 'center'
