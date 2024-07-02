@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121417;
+  padding: 1rem;
+}
+#root {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+@media (min-width: 1600px) {
+  #root {
+    width: 600px;
+  }
+}
+@media (max-width: 600px) {
+  #root {
+    width: 90%;
+  }
+}
